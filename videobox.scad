@@ -127,7 +127,7 @@ module banana_pi_lcd(){
         cube([lcd_width,lcd_height,lcd_depth]); //non-touch
     translate([lcd_width/2, lcd_height/2, lcd_depth])
         color("yellow") {
-            text(halign="center", valign="center", text="H264 Enc.");
+            text(halign="center", valign="center", text="LCD");
         }
 
 }
